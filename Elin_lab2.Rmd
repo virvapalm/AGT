@@ -860,7 +860,7 @@ Here it becomes quite clear what cell types are proliferating and what cell type
 
 ```{r q13}
 # Replace the NAs with your answer
-q13.answer <- c('PVL cells', 'pDCs', 'plasmablats', 'Endothelial 2')
+q13.answer <- c('PVL cells', 'pDCs', 'plasmablasts', 'Endothelial 2')
 cat(sprintf("Answer: %s", paste(q13.answer, collapse = ", ")))
 ```
 
