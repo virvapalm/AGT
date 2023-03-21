@@ -1,0 +1,21 @@
+# AGT
+Code for applied gene technology in R
+library(tidyverse)
+library(patchwork)
+
+setwd("C:/Users/virva/Documents/R/Mollz_dat")
+
+Sys.setlocale(locale="no_NO")
+
+listner_desc_dat<- read.csv("ratings_teflon_2023.csv",
+                             sep=';', 
+                             header = TRUE)
+
+
+all_raing_dat_dup<- read.csv("all_rating_data_no_duplicates.csv",
+                             sep=';', 
+                             header = TRUE)
+
+all_raing_dat_rest<- read.csv("all_duplicates_restructured.csv", 
+                             sep=';',
+                             header = TRUE)
