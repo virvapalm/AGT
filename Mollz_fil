@@ -1,6 +1,7 @@
 # AGT
 Code for applied gene technology in R
 library(tidyverse)
+library(irr)
 
 setwd("C:/Users/virva/Documents/R/Mollz_dat")
 
